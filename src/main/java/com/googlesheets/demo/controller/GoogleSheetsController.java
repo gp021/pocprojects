@@ -21,4 +21,10 @@ public class GoogleSheetsController {
         googleSheetsService.getSpreadsheetValues();
         return "OK";
     }
+    
+    @GetMapping(value="hex")
+    public String getsheetValues() throws IOException, GeneralSecurityException {
+      
+        return "OK";
+    }
 }
