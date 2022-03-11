@@ -62,4 +62,10 @@ public class GoogleAuthorizationConfig {
                 .setApplicationName(applicationName)
                 .build();
     }
+    
+    @SuppressWarnings("deprecation")
+	public int testamet() {
+    	
+    	return new Integer(10);
+    }
 }
